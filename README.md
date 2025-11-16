@@ -1,6 +1,6 @@
 # 🎓 EducaAI: O Tutor de IA Personalizado
 
-!O EducaAI é um aplicativo móvel, construído em Flutter, que funciona como um tutor de Inteligência Artificial para alunos do Ensino Fundamental. A sua principal característica é adaptar as suas respostas com base na **Base Nacional Comum Curricular (BNCC)** e no perfil de aprendizagem único de cada aluno.
+O EducaAI é um aplicativo móvel, construído em Flutter, que funciona como um tutor de Inteligência Artificial para alunos do Ensino Fundamental. A sua principal característica é adaptar as suas respostas com base na **Base Nacional Comum Curricular (BNCC)** e no perfil de aprendizagem único de cada aluno.
 
 Este projeto foi desenvolvido como um projeto académico para a matéria de Desenvolvimento Mobile, na Faculdade Nobre de Feira de Santana.
 
@@ -65,3 +65,4 @@ Este projeto utiliza o Firebase. Para o executar localmente, você precisará de
     flutter run
 
     ```
+
