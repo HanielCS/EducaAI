@@ -1,0 +1,52 @@
+# Diversos
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Relacionados ao IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# A pasta .vscode contém configurações de execução e tarefas que você
+# configura no VS Code. Você pode querer incluir esta pasta no controle
+# de versão, por isso esta linha está comentada por padrão.
+#.vscode/
+
+# Relacionados ao Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Relacionados a Símbolos de Depuração
+app.*.symbols
+
+# Relacionados à Ofuscação
+app.*.map.json
+
+# O Android Studio colocará os ficheiros de build aqui
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Ficheiros secretos de configuração do Firebase
+/android/app/google-services.json
+/lib/firebase_options.dart
+
+# Ficheiro de constantes com chaves de API
+/lib/config/constants.dart

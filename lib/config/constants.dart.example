@@ -1,0 +1,2 @@
+// Por favor, crie um ficheiro 'constants.dart' e cole a sua chave de API
+const String geminiAPIKEY = "SUA_GEMINI_API_KEY_AQUI";

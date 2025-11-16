@@ -1,0 +1,91 @@
+name: educaai
+description: "Um novo projeto Flutter."
+# A linha seguinte impede que o pacote seja acidentalmente publicado no
+# pub.dev usando `flutter pub publish`. Isto é preferível para pacotes privados.
+publish_to: 'none' # Remova esta linha se desejar publicar no pub.dev
+
+# O seguinte define a versão (version) e o número de compilação (build number) da sua aplicação.
+# Um número de versão são três números separados por pontos, como 1.2.43
+# seguido por um número de compilação opcional separado por um +.
+# Tanto a versão quanto o número de compilação podem ser substituídos no
+# `flutter build` especificando --build-name e --build-number, respetivamente.
+# No Android, build-name é usado como versionName e build-number como versionCode.
+# Leia mais sobre versionamento Android em https://developer.android.com/studio/publish/versioning
+# No iOS, build-name é usado como CFBundleShortVersionString e build-number como CFBundleVersion.
+# Leia mais sobre versionamento iOS em
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# No Windows, build-name é usado como as partes major, minor e patch
+# das versões do produto e do ficheiro, enquanto build-number é usado como o sufixo de compilação.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+# Dependências especificam outros pacotes que o seu pacote precisa para funcionar.
+# Para atualizar automaticamente as dependências do seu pacote para as versões mais recentes,
+# considere executar `flutter pub upgrade --major-versions`. Alternativamente,
+# as dependências podem ser atualizadas manualmente alterando os números da versão abaixo para
+# a versão mais recente disponível no pub.dev. Para ver quais dependências têm versões
+# mais recentes disponíveis, execute `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Usado com a classe CupertinoIcons para ícones de estilo iOS.
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+  firebase_app_check: ^0.4.1+2
+  
+  # Gemini
+  flutter_gemini: ^3.0.0
+
+  # Provider
+  provider: ^6.1.2
+
+  # Formatação de Texto:
+  markdown: ^7.1.1
+  flutter_markdown: ^0.7.1
+  flutter_math_fork: ^0.7.2
+
+  # Para a troca de foto do perfil
+  image_picker: ^1.1.2   
+
+  # Para guardar o tema
+  shared_preferences: ^2.2.3 
+
+  # Para abrir links (Termos de Uso)
+  url_launcher: ^6.3.1
+
+  # Para 'switchMap' no stream de autenticação
+  rxdart: ^0.27.7 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # O pacote 'flutter_lints' contém um conjunto de "lints" (análises de código) recomendadas
+  # para incentivar boas práticas de código.
+  flutter_lints: ^6.0.0
+
+  # Pacote para gerar os ícones do aplicativo automaticamente
+  flutter_launcher_icons: ^0.13.1
+
+# A secção seguinte é específica do Flutter e permite configurar o projeto.
+flutter:
+
+  # A linha seguinte garante que a fonte Material Icons esteja incluída
+  # na sua aplicação, permitindo o uso de ícones da biblioteca Material.
+  uses-material-design: true
+
+# Configuração do 'flutter_launcher_icons' (ícone do app)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/book.png" # <--- Altere aqui se o seu caminho for diferente
+  min_sdk_android: 21 # (Opcional, mas é bom ter)
