@@ -39,7 +39,7 @@ Este projeto utiliza o Firebase. Para o executar localmente, você precisará de
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL-DO-SEU-REPO-AQUI]
+    git clone [https://github.com/HanielCS/EducaAI]
     cd educaai
     ```
 
