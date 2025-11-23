@@ -51,7 +51,7 @@ Este projeto utiliza o Firebase. Para o executar localmente, você precisará de
 3.  **Configure o Firebase:**
     * Vá ao [Console do Firebase](https://console.firebase.google.com/) e crie um novo projeto.
     * Ative os serviços: **Authentication**, **Firestore**, **Storage** e **App Check**.
-    * Execute `flutterfire configure` (como fizemos) para ligar o seu projeto e descarregar o `google-services.json`.
+    * Execute `flutterfire configure` para ligar o seu projeto e descarregar o `google-services.json`.
 
 4.  **Configure a API Gemini (O Ficheiro Secreto):**
     * Na pasta `lib/config/`, renomeie o ficheiro `constants.dart.example` para `constants.dart`.
