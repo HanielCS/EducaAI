@@ -33,6 +33,18 @@ Este projeto foi desenvolvido como um projeto académico para a matéria de Dese
 
 ---
 
+### Telas do EducaAI
+
+<p align="center">
+  <img src="assets/Home.png" width="18%" alt="Tela Inicial">
+  <img src="assets/Conversas.png" width="18%" alt="Tela das Conversas">
+  <img src="assets/Perfil.png" width="18%" alt="Tela do Perfil">
+  <img src="assets/Configuracoes.png" width="18%" alt="Tela de Configurações">
+  <img src="assets/Chat.png" width="18%" alt="Tela do Chat">
+</p>
+
+---
+
 ### ⚙️ Como Executar o Projeto
 
 Este projeto utiliza o Firebase. Para o executar localmente, você precisará de criar o seu próprio projeto Firebase.
